@@ -11,7 +11,9 @@ public class GetingDate {
 		return lt.now();
 	}
 	public static void main(String[] args) {
+		System.out.println("Today Date is");
 		System.out.println( new GetingDate().getLocalTime());
+		
 		
 	}
 }
